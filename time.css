@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.carousel-item h1 {
+    color: whitesmoke;
+    font-size: 5rem;
+    margin-bottom: 150px;
+    font-weight: 700;
+    font-family: tahoma;
+}
+
+nav {
+    z-index: initial;
+}
+
+nav li a:hover {
+    color: #015a87;
+}
+
+.web-design-list .text {
+    color: #096484;
+    margin-left: 10px;
+    transition: margin-left .2s ease-in-out;
+}
+
+.web-design-list .text:hover {
+    margin-left: 20px;
+}
+
+.sec {
+    height: 60px;
+}
+
+.col-md-3 {
+    transition: padding-left .2s ease-in-out;
+}
+
+.col-md-3:hover {
+    padding-left: 2px;
+}
+
+/* footer */
+
+.foot1 h1 {
+    font-size: 3rem;
+    text-transform: uppercase;
+}
+
+.foot1 p {
+    text-transform: capitalize;
+}
+
+.foot2 p {
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+form label {
+    text-transform: capitalize;
+    color: whitesmoke;
+    padding: 2px;
+}
+
+form input {
+
+    padding: 8px;
+    width: 50%;
+}
+
+.footerr .row {
+
+    margin: 1px;
+    background-color: rgb(9, 26, 79);
+
+}
+
+.card {
+    background-color: rgb(9, 26, 79);
+    border: none;
+}
+
+.card2 {
+    background-color: rgb(9, 26, 79);
+    height: 100%;
+}
+
+/* .about-section{
+    color: whitesmoke;
+} */
+.title-subtitle-section {
+    text-align: center;
+    color: #015a87;
+}
+
+.service-box {
+    margin: 0 0 40px;
+    padding: 40px 15px;
+    border-radius: 10px;
+    min-height: 330px;
+    position: relative;
+    overflow: hidden;
+    -webkit-box-shadow: 3px 3px 5px 4px rgba(0, 0, 0, 0.07);
+    -moz-box-shadow: 3px 3px 5px 4px rgba(0, 0, 0, 0.07);
+    box-shadow: 3px 3px 5px 4px rgba(0, 0, 0, 0.07);
+    background: rgba(255, 255, 255, 1);
+    -webkit-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+    z-index: 99;
+}
+
+/* .rowww .row{
+    margin-top: 50px;
+} */
